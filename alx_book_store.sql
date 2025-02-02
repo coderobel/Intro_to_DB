@@ -2,7 +2,7 @@
 CREATE DATABASE alx_book_store;
 
 USE alx_book_store;
-
+-- "CREATE TABLE ", "Authors", "author_id ", "author_name"
 CREATE TABLE Authors(
 auhtor_id INT PRIMARY KEY,
 author_name VARCHAR(215));
