@@ -36,4 +36,4 @@ FOREIGN KEY (order_id) REFERENCES Orders(order_id),
 -- "FOREIGN KEY (book_id) REFERENCES Books(book_id)"
 FOREIGN KEY (book_id)  REFERENCES Books(book_id));
 INSERT INTO customer(customer_id,customer_name,email,address) VALUES
-(1234, Robel,'rf@gmail.com',bole);
+("Cole Baidoo", "cbaidoo@sandtech.com", "123 Happiness Ave.");
